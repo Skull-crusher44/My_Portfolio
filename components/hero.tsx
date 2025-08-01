@@ -235,7 +235,7 @@ export default function Hero() {
                   {/* Modern social links */}
                   <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 flex gap-3 p-3 px-6 bg-white dark:bg-slate-800 rounded-full shadow-lg border border-slate-100 dark:border-slate-700 z-30">
                     <a
-                      href="https://www.linkedin.com/in/pankaj-ahuja-9a7a96286/"
+                      href="https://www.linkedin.com/in/pankaj--ahuja/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-700 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/30"

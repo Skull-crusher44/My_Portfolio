@@ -17,6 +17,8 @@ export default function Skills() {
       skills: [
         "Node.js",
         "Express.js",
+        "Spring Boot",
+        "Java",
         "RESTful APIs",
         "MongoDB",
         "PostgreSQL",

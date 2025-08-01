@@ -79,7 +79,7 @@ export default function Contact() {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect with me",
-      href: "https://www.linkedin.com/in/pankaj-ahuja-9a7a96286/",
+      href: "https://www.linkedin.com/in/pankaj--ahuja/",
       description: "Professional networking",
       color: "bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-500",
     },

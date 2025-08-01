@@ -17,7 +17,7 @@ export default function Footer() {
         </motion.p>
         <div className="flex gap-3">
           <motion.a
-            href="https://www.linkedin.com/in/pankaj-ahuja-9a7a96286/"
+            href="https://www.linkedin.com/in/pankaj--ahuja/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-blue-500 dark:hover:text-blue-400 transition-colors"

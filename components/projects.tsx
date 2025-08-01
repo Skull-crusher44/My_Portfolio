@@ -31,11 +31,12 @@ export default function Projects() {
 
   const projects: Project[] = [
     {
-      title: "Connected Vehicle Data Platform",
+      title: "Code Mesh",
       description:
-        "Currently developing a comprehensive web platform at CerebrumX for processing and analyzing connected vehicle data. Building full-stack features using React.js and Node.js, implementing RESTful APIs, and creating scalable cloud-based solutions for automotive data processing.",
+        "A real-time collaborative code editor with unique room creation, syntax highlighting, and intelligent code suggestions, enabling users to edit, save, and download files while communicating through an integrated group chat.",
       image: "/project4.webp",
-      showRepo: false,
+      repoUrl: "https://github.com/Skull-crusher44/Code_Mesh",
+      showRepo: true,
       showLive: false,
     },
     {
@@ -43,28 +44,28 @@ export default function Projects() {
       description:
         "Developed a MERN-based AI tool for video transcription, summarization, and mind map generation. Integrated OpenAI's Whisper API, GPT models, FFmpeg, and D3.js for seamless automation. Optimized video processing with FFmpeg, Multer, and WebSockets for real-time progress tracking.",
       image: "/project1.webp",
-      repoUrl: "https://github.com/Skull-crusher44",
+      repoUrl: "https://github.com/Skull-crusher44/SummarizeX",
       liveUrl: "#",
       showRepo: true,
-      showLive: true,
+      showLive: false,
     },
     {
       title: "GoatCare Connect - NGO Management System",
       description:
         "Built a web application for managing goat distribution and monitoring in tribal communities with offline support. Features include admin dashboard for beneficiary management, visitor profiles, and analytics, plus offline data entry with photo verification and sync capabilities.",
       image: "/project2.webp",
-      repoUrl: "https://github.com/Skull-crusher44",
+      repoUrl: "https://github.com/Skull-crusher44/Vsitor-Tracking",
       liveUrl: "#",
       showRepo: true,
-      showLive: true,
+      showLive: false,
     },
     {
       title: "Codeforces Profile Analyzer",
       description:
         "Developed a web app to analyze and compare Codeforces profiles, providing detailed statistics and performance insights. Integrated Codeforces API for data retrieval and Chart.js for visualization, reducing analysis time by 70%. Created an intuitive interface for enhanced user experience.",
       image: "/project3.webp",
-      repoUrl: "https://github.com/Skull-crusher44",
-      liveUrl: "#",
+      repoUrl: "https://github.com/Skull-crusher44/Codeforces-Analyzer_1",
+      liveUrl: "https://skull-crusher44.github.io/Codeforces-Analyzer/",
       showRepo: true,
       showLive: true,
     }

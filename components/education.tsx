@@ -2,7 +2,7 @@
 
 import { SectionHeading } from "./section-heading"
 import { GraduationCap, Calendar, MapPin, Award, ArrowRight } from "lucide-react"
-import { motion } from "framer-motion"
+import { motion, percent } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
@@ -14,7 +14,7 @@ export default function Education() {
       degree: "B.Tech Computer Science and Engineering",
       location: "Bhopal, MP (India)",
       period: "2022-Present",
-      gpa: "CGPA: 9.05",
+      gpa: "CGPA: 8.90",
       positions: [],
       courses: [
         "Data Structures",
@@ -33,7 +33,7 @@ export default function Education() {
       degree: "Higher Secondary Education",
       location: "Rajasthan, India",
       period: "2021",
-      gpa: "Percentage: 96",
+      gpa: " 96.80 %",
       positions: [],
       courses: [],
       achievements: [],
@@ -46,7 +46,7 @@ export default function Education() {
       degree: "Secondary Education",
       location: "Rajasthan, India",
       period: "2019",
-      gpa: "",
+      gpa: "94.14 %",
       positions: [],
       courses: [],
       achievements: [],
@@ -133,7 +133,7 @@ export default function Education() {
                             {edu.gpa && (
                               <div className="flex items-center gap-1">
                                 <Award className="h-3.5 w-3.5 text-emerald-500 dark:text-emerald-400" />
-                                <span>GPA: {edu.gpa}</span>
+                                <span>Percentage: {edu.gpa}</span>
                               </div>
                             )}
                           </div>

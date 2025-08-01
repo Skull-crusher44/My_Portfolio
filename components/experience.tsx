@@ -29,9 +29,9 @@ export default function Experience() {
       companyDetail: "(Connected Car Data & Mobility Intelligence)",
       position: "Software Development Intern",
       location: "Gurugram",
-      period: "May 2023 – Present",
+      period: "May 2025 – June 2025",
       responsibilities: [
-        "Developing and maintaining full-stack web applications using Java, Spring , Spring Boot, React",
+        "Reduced daily token access costs by 92% (from $50 to $4) and reduced latency by 70% by replacing AWS Cognito with a Redis-based caching architecture, supporting 10,000+ daily requests with 99.9% uptime",
         "Implementing RESTful APIs and integrating connected vehicle data solutions",
         "Collaborating with cross-functional teams to enhance vehicle data analytics platform",
         "Contributing to the development of scalable cloud-based solutions for automotive data processing",
