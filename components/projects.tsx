@@ -65,7 +65,7 @@ export default function Projects() {
         "Developed a web app to analyze and compare Codeforces profiles, providing detailed statistics and performance insights. Integrated Codeforces API for data retrieval and Chart.js for visualization, reducing analysis time by 70%. Created an intuitive interface for enhanced user experience.",
       image: "/project3.webp",
       repoUrl: "https://github.com/Skull-crusher44/Codeforces-Analyzer_1",
-      liveUrl: "https://skull-crusher44.github.io/Codeforces-Analyzer/",
+      liveUrl: "https://cf-metric.vercel.app/",
       showRepo: true,
       showLive: true,
     }
