@@ -36,6 +36,16 @@ export default function Projects() {
         "A real-time collaborative code editor with unique room creation, syntax highlighting, and intelligent code suggestions, enabling users to edit, save, and download files while communicating through an integrated group chat.",
       image: "/project4.webp",
       repoUrl: "https://github.com/Skull-crusher44/Code_Mesh",
+      liveUrl: "https://meshcode.vercel.app/",
+      showRepo: true,
+      showLive: true,
+    },
+    {
+      title: "Finance GPT",
+      description:
+        "Built a smart AI chatbot that gives helpful financial advice. I used a special method called RAG, which finds the best information from a large knowledge base (over 1000 pages) and then uses it to write a good answer. To make the search very accurate, I used a Hybrid Search that looks for both exact keywords and the meaning behind a user's question. Once the right information is found, the LLaMA AI model writes a clear, natural-sounding response. The app runs on a Flask backend with a user-friendly interface made with Streamlit, and it's very fast, giving answers in under two seconds.",
+      image: "/project5.webp",
+      repoUrl: "https://github.com/Skull-crusher44/FinanceGPT#",
       showRepo: true,
       showLive: false,
     },
