@@ -25,6 +25,20 @@ interface Experience {
 export default function Experience() {
   const experiences: Experience[] = [
     {
+      company: "Piramal Finance",
+      companyDetail: "",
+      position: "SDE Intern",
+      location: "Bangalore",
+      period: "Jan 2026 – Present",
+      responsibilities: [
+        "Led migration of microservices to a centralized configuration system using Spring Cloud Config and Kafka, enabling zero-downtime dynamic configuration updates and improving deployment efficiency",
+        "Identified and resolved critical production risks including hardcoded secrets and cross-environment misconfigurations, while migrating AWS Param Store–based configs to a centralized Git-backed repository with S3 versioning, ensuring reliability, security, and a single source of truth",
+        "Collaborated with cross-functional and DevOps teams to resolve migration blockers, debug issues, and clarify architecture requirements",
+        "Reduced false-positive alerts by analyzing Grafana metrics, API-level alerting logic, and Kafka-based pipelines, improving monitoring accuracy and incident response",
+      ],
+      roles: [],
+    },
+    {
       company: "CerebrumX",
       companyDetail: "(Connected Car Data & Mobility Intelligence)",
       position: "Software Development Intern",
@@ -61,9 +75,11 @@ export default function Experience() {
                 {/* Individual timeline segment for each company */}
                 <div className="absolute left-6 top-0 h-full">
                   {/* Show line if it's not the last item OR if it has sub-roles */}
+                  {/* COMMENTED OUT - Timeline line disabled
                   {(index < experiences.length - 1 || exp.roles.length > 0) && (
                     <div className="absolute left-0 top-10 bottom-0 w-0.5 bg-emerald-500/30 dark:bg-emerald-400/30"></div>
                   )}
+                  */}
                 </div>
 
                 <div className="pl-14 md:pl-16 relative">
